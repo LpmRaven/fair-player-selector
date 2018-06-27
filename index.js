@@ -1,9 +1,9 @@
 const playersStats = require('./player-stats.json');
 const playersConsecutiveGames = require('./player-consecutive-games.json');
-const loggerPlayers = require('./logger-players');
-const loggerLineBreak = require('./logger-line-break');
-const loggerPlayerWeight = require('./logger-player-weight');
-const loggerPlayerWeightTitle = require('./logger-player-weight-title');
+const loggerPlayers = require('./logger').players;
+const loggerLineBreak = require('./logger').lineBreak;
+const loggerPlayerWeight = require('./logger').playerWeight;
+const loggerPlayerWeightTitle = require('./logger').playerWeightTitle;
 
 module.exports.init = () => {
   const numberOfPlayers = 16;
