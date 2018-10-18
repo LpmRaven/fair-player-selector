@@ -7,9 +7,6 @@
     "chalk": "^2.4.1"
   },
   "devDependencies": {},
-  "scripts": {
-    "run": "node -e 'require('./index').init()"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LpmRaven/fair-player-selector.git"
